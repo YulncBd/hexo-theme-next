@@ -45,7 +45,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -78,9 +78,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -590,3 +590,8 @@ images: images
 
 # Theme version
 version: 5.1.1
+
+# Donate 文章末尾显示打赏按钮
+reward_comment: 如果觉得写的不错，那就打赏一下吧！
+wechatpay: /uploads/weixin.png
+#alipay: 此处为支付宝向我付款二维码图片的相对或者是绝对URL
